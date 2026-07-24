@@ -44,9 +44,9 @@ layers:
   - Gui+Sft+Z
   - ↑
   - Gui+S
-  - +
+  - {t: +, h: £}
   - '*'
-  - {t: '1', h: £}
+  - '1'
   - '2'
   - '3'
   - '&email'
@@ -131,21 +131,17 @@ combos:
   k: ↹
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [14, 15]
-  k: ⇪ LOCK
+  k: ⇪ WORD
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [25, 26]
-  k: '&appswitcher'
+  k: Gui+Sft+4
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [6, 5]
-  k: 'VOL
-
-    UP'
+  k: {t: ▽, type: trans}
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [16, 17]
-  k: 'VOL
-
-    DOWN'
+  k: {t: ▽, type: trans}
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [27, 28]
-  k: Gui+Sft+4
+  k: {t: ▽, type: trans}
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]

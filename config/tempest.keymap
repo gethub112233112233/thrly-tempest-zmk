@@ -49,31 +49,31 @@
         };
 
         left2 {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&caps_word>;
             key-positions = <14 15>;
             layers = <0 1>;
         };
 
         left3 {
-            bindings = <&appswitcher>;
+            bindings = <&kp LG(LS(NUMBER_4))>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
 
         right1 {
-            bindings = <&kp C_VOLUME_UP>;
+            bindings = <&trans>;
             key-positions = <6 5>;
             layers = <0 1>;
         };
 
         right2 {
-            bindings = <&kp C_VOLUME_DOWN>;
+            bindings = <&trans>;
             key-positions = <16 17>;
             layers = <0 1>;
         };
 
         right3 {
-            bindings = <&kp LG(LS(NUMBER_4))>;
+            bindings = <&trans>;
             key-positions = <27 28>;
             layers = <0 1>;
         };
@@ -85,20 +85,6 @@
             #binding-cells = <0>;
             bindings = <&kp LS(NUMBER_2) &kp P &kp R &kp O &kp T &kp O &kp N &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL";
-        };
-
-        appswitcher: globe {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp GLOBE>,
-                <&macro_tap>,
-                <&kp UP_ARROW>,
-                <&macro_release>,
-                <&kp GLOBE>;
-
-            label = "GLOBE";
         };
     };
 
@@ -116,10 +102,10 @@
 
         NavigateNumbersSymbols2 {
             bindings = <
-        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp PLUS          &kp STAR     &mt LS(NUMBER_3) NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
-&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp MINUS         &kp SLASH    &kp NUMBER_4               &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp LA(NUMBER_3)  &kp PERCENT  &kp NUMBER_7               &kp NUMBER_8  &kp NUMBER_9  &trans
-                                  &trans        &trans     &trans            &trans       &trans                     &trans
+        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &mt LS(NUMBER_3) PLUS  &kp STAR     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
+&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp MINUS              &kp SLASH    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp LA(NUMBER_3)       &kp PERCENT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                                  &trans        &trans     &trans                 &trans       &trans        &trans
             >;
         };
 
