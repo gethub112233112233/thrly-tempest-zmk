@@ -110,16 +110,16 @@
         &mt LS(B) B  &mt LS(Y) Y           &mt LS(O) O            &mt LS(U) U          &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt LS(K) K  &mt LS(D) D  &mt LS(C) C          &mt LS(L) L  &mt LS(P) P
 &trans  &mt LS(H) H  &mt LS(I) I           &mt LS(E) E            &mt LS(A) A          &mt SEMI COMMA                  &mt LS(M) M  &mt LS(T) T  &mt LS(S) S          &mt LS(R) R  &mt LS(N) N  &trans
         &mt LS(X) X  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LS(SEMI) PERIOD  &mt EXCLAMATION QUESTION        &mt LS(W) W  &mt LS(G) G  &mt LS(F) F          &mt LS(J) J  &mt LS(Z) Z
-                                           &kp ESCAPE             &mo 1                &kp BACKSPACE                   &kp SPACE    &mo 1        &mt LA(ENTER) ENTER
+                                           &kp ESCAPE             &mo 1                &kp BACKSPACE                   &kp SPACE    &mo 1        &mt LG(ENTER) ENTER
             >;
         };
 
         NavigateNumbersSymbols2 {
             bindings = <
-        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)      &kp PLUS          &kp STAR     &mt LS(NUMBER_3) NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
-&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT      &kp MINUS         &kp SLASH    &kp NUMBER_4               &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LG(X)      &kp LG(C)     &kp LA(LG(V))  &kp LA(NUMBER_3)  &kp PERCENT  &kp NUMBER_7               &kp NUMBER_8  &kp NUMBER_9  &trans
-                                  &trans        &trans         &trans            &trans       &trans                     &trans
+        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp PLUS          &kp STAR     &mt LS(NUMBER_3) NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
+&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp MINUS         &kp SLASH    &kp NUMBER_4               &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp LA(NUMBER_3)  &kp PERCENT  &kp NUMBER_7               &kp NUMBER_8  &kp NUMBER_9  &trans
+                                  &trans        &trans     &trans            &trans       &trans                     &trans
             >;
         };
 

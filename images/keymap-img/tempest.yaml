@@ -38,7 +38,7 @@ layers:
   - ⌫
   - ⎵
   - NavigateNumbersSymbols2
-  - {t: ENTER, h: Alt+ENTER}
+  - {t: ENTER, h: Gui+ENTER}
   NavigateNumbersSymbols2:
   - ⌘Z
   - Gui+Sft+Z
@@ -65,7 +65,7 @@ layers:
   - {t: ▽, type: trans}
   - ⌘X
   - ⌘C
-  - Alt+Gui+V
+  - ⌘V
   - Alt+3
   - '%'
   - '7'
