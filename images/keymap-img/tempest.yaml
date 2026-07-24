@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: tempest}
 layers:
-  LettersModifiersSymbols1:
+  ModifiersLettersSymbols1:
   - {t: B, h: Sft+B}
   - {t: Y, h: Sft+Y}
   - {t: O, h: Sft+O}
@@ -34,12 +34,12 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - ESC
-  - ArrowsNumbersSymbols2
+  - NavigateNumbersSymbols2
   - ⌫
   - ⎵
-  - ArrowsNumbersSymbols2
+  - NavigateNumbersSymbols2
   - {t: ENTER, h: Gui+ENTER}
-  ArrowsNumbersSymbols2:
+  NavigateNumbersSymbols2:
   - ⌘Z
   - Gui+Sft+Z
   - ↑
@@ -65,7 +65,7 @@ layers:
   - {t: ▽, type: trans}
   - ⌘X
   - ⌘C
-  - Sft+Alt+Gui+V
+  - Ctl+Gui+V
   - Alt+3
   - '%'
   - '7'
@@ -120,32 +120,32 @@ layers:
 combos:
 - p: [6, 7]
   k: {t: V, h: Sft+V}
-  l: [LettersModifiersSymbols1]
+  l: [ModifiersLettersSymbols1]
 - p: [7, 8]
   k: {t: Q, h: Sft+Q}
-  l: [LettersModifiersSymbols1]
+  l: [ModifiersLettersSymbols1]
 - p: [34, 33]
   k: BootloaderReset
-  l: [LettersModifiersSymbols1]
+  l: [ModifiersLettersSymbols1]
 - p: [3, 4]
   k: ↹
-  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
+  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [14, 15]
   k: ⇪ LOCK
-  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
+  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [25, 26]
   k: '&appswitcher'
-  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
+  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [6, 5]
   k: 'VOL
 
     UP'
-  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
+  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [16, 17]
   k: 'VOL
 
     DOWN'
-  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
+  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [27, 28]
   k: Gui+Sft+4
-  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
+  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]

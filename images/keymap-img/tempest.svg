@@ -206,8 +206,8 @@ path.combo {
       stroke-dasharray: 4, 4;
       stroke-opacity: 0.3;
     }</style>
-<g transform="translate(30, 0)" class="layer-LettersModifiersSymbols1">
-<text x="0" y="28" class="label" id="LettersModifiersSymbols1">LettersModifiersSymbols1</text>
+<g transform="translate(30, 0)" class="layer-ModifiersLettersSymbols1">
+<text x="0" y="28" class="label" id="ModifiersLettersSymbols1">ModifiersLettersSymbols1</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -372,8 +372,8 @@ path.combo {
 </g>
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#ArrowsNumbersSymbols2">
-<text x="0" y="0" class="key tap layer-activator">ArrowsNumbersSymbols2</text>
+<a href="#NavigateNumbersSymbols2">
+<text x="0" y="0" class="key tap layer-activator">NavigateNumbersSymbols2</text>
 </a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -385,8 +385,8 @@ path.combo {
 </g>
 <g transform="translate(593, 230) rotate(-15.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#ArrowsNumbersSymbols2">
-<text x="0" y="0" class="key tap layer-activator">ArrowsNumbersSymbols2</text>
+<a href="#NavigateNumbersSymbols2">
+<text x="0" y="0" class="key tap layer-activator">NavigateNumbersSymbols2</text>
 </a></g>
 <g transform="translate(655, 221)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -440,8 +440,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 349)" class="layer-ArrowsNumbersSymbols2">
-<text x="0" y="28" class="label" id="ArrowsNumbersSymbols2">ArrowsNumbersSymbols2</text>
+<g transform="translate(30, 349)" class="layer-NavigateNumbersSymbols2">
+<text x="0" y="28" class="label" id="NavigateNumbersSymbols2">NavigateNumbersSymbols2</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -547,7 +547,7 @@ path.combo {
 </g>
 <g transform="translate(259, 151)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Sft+Alt+Gui+V</text>
+<text x="0" y="0" class="key tap">Ctl+Gui+V</text>
 </g>
 <g transform="translate(315, 160)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
