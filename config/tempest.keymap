@@ -36,7 +36,7 @@
             layers = <0>;
         };
 
-        resetboot {
+        BootloaderReset {
             bindings = <&mo 2>;
             key-positions = <34 33>;
             layers = <0>;
@@ -55,7 +55,7 @@
         };
 
         left3 {
-            bindings = <&globe>;
+            bindings = <&appswitcher>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
@@ -87,13 +87,16 @@
             label = "EMAIL";
         };
 
-        globe: globe {
+        appswitcher: globe {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp GLOBE &kp UP_ARROW>,
-                <&macro_release>;
+                <&kp GLOBE>,
+                <&macro_tap>,
+                <&kp UP_ARROW>,
+                <&macro_release>,
+                <&kp GLOBE>;
 
             label = "GLOBE";
         };
@@ -102,7 +105,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        sentences {
+        LettersModifiersSymbols1 {
             bindings = <
         &mt LS(B) B  &mt LS(Y) Y           &mt LS(O) O            &mt LS(U) U          &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt LS(K) K  &mt LS(D) D  &mt LS(C) C          &mt LS(L) L  &mt LS(P) P
 &trans  &mt LS(H) H  &mt LS(I) I           &mt LS(E) E            &mt LS(A) A          &mt SEMI COMMA                  &mt LS(M) M  &mt LS(T) T  &mt LS(S) S          &mt LS(R) R  &mt LS(N) N  &trans
@@ -111,16 +114,16 @@
             >;
         };
 
-        arrowsnumbers {
+        ArrowsNumbersSymbols2 {
             bindings = <
         &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)          &kp PLUS          &kp STAR     &mt LS(NUMBER_3) NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
 &trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT          &kp MINUS         &kp SLASH    &kp NUMBER_4               &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LG(X)      &kp LG(C)     &kp LA(LS(LG(V)))  &kp LA(NUMBER_3)  &kp PERCENT  &kp NUMBER_7               &kp NUMBER_8  &kp NUMBER_9  &trans
+        &trans     &kp LG(X)      &kp LG(C)     &kp LS(LA(LG(V)))  &kp LA(NUMBER_3)  &kp PERCENT  &kp NUMBER_7               &kp NUMBER_8  &kp NUMBER_9  &trans
                                   &trans        &trans             &trans            &trans       &trans                     &trans
             >;
         };
 
-        resetboot {
+        BootloaderReset {
             bindings = <
         &bootloader     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader
 &trans  &sys_reset      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sys_reset   &trans

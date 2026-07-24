@@ -206,8 +206,8 @@ path.combo {
       stroke-dasharray: 4, 4;
       stroke-opacity: 0.3;
     }</style>
-<g transform="translate(30, 0)" class="layer-sentences">
-<text x="0" y="28" class="label" id="sentences">sentences</text>
+<g transform="translate(30, 0)" class="layer-LettersModifiersSymbols1">
+<text x="0" y="28" class="label" id="LettersModifiersSymbols1">LettersModifiersSymbols1</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -372,8 +372,8 @@ path.combo {
 </g>
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#arrowsnumbers">
-<text x="0" y="0" class="key tap layer-activator">arrowsnumbers</text>
+<a href="#ArrowsNumbersSymbols2">
+<text x="0" y="0" class="key tap layer-activator">ArrowsNumbersSymbols2</text>
 </a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -385,8 +385,8 @@ path.combo {
 </g>
 <g transform="translate(593, 230) rotate(-15.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#arrowsnumbers">
-<text x="0" y="0" class="key tap layer-activator">arrowsnumbers</text>
+<a href="#ArrowsNumbersSymbols2">
+<text x="0" y="0" class="key tap layer-activator">ArrowsNumbersSymbols2</text>
 </a></g>
 <g transform="translate(655, 221)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -405,8 +405,8 @@ path.combo {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="358" y="229" width="28" height="26" class="combo"/>
-<a href="#resetboot">
-<text x="372" y="242" class="combo tap layer-activator">resetboot</text>
+<a href="#BootloaderReset">
+<text x="372" y="242" class="combo tap layer-activator">BootloaderReset</text>
 </a></g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="273" y="30" width="28" height="26" class="combo"/>
@@ -420,7 +420,7 @@ path.combo {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="273" y="142" width="28" height="26" class="combo"/>
-<text x="287" y="155" class="combo tap">&amp;globe</text>
+<text x="287" y="155" class="combo tap">&amp;appswitcher</text>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="636" y="30" width="28" height="26" class="combo"/>
@@ -440,8 +440,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 349)" class="layer-arrowsnumbers">
-<text x="0" y="28" class="label" id="arrowsnumbers">arrowsnumbers</text>
+<g transform="translate(30, 349)" class="layer-ArrowsNumbersSymbols2">
+<text x="0" y="28" class="label" id="ArrowsNumbersSymbols2">ArrowsNumbersSymbols2</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -547,7 +547,7 @@ path.combo {
 </g>
 <g transform="translate(259, 151)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Alt+Sft+Gui+V</text>
+<text x="0" y="0" class="key tap">Sft+Alt+Gui+V</text>
 </g>
 <g transform="translate(315, 160)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -608,7 +608,7 @@ path.combo {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="273" y="142" width="28" height="26" class="combo"/>
-<text x="287" y="155" class="combo tap">&amp;globe</text>
+<text x="287" y="155" class="combo tap">&amp;appswitcher</text>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="636" y="30" width="28" height="26" class="combo"/>
@@ -628,8 +628,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 699)" class="layer-resetboot">
-<text x="0" y="28" class="label" id="resetboot">resetboot</text>
+<g transform="translate(30, 699)" class="layer-BootloaderReset">
+<text x="0" y="28" class="label" id="BootloaderReset">BootloaderReset</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

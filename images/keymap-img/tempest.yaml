@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: tempest}
 layers:
-  sentences:
+  LettersModifiersSymbols1:
   - {t: B, h: Sft+B}
   - {t: Y, h: Sft+Y}
   - {t: O, h: Sft+O}
@@ -34,12 +34,12 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - ESC
-  - arrowsnumbers
+  - ArrowsNumbersSymbols2
   - ⌫
   - ⎵
-  - arrowsnumbers
+  - ArrowsNumbersSymbols2
   - {t: ENTER, h: Gui+ENTER}
-  arrowsnumbers:
+  ArrowsNumbersSymbols2:
   - ⌘Z
   - Gui+Sft+Z
   - ↑
@@ -65,7 +65,7 @@ layers:
   - {t: ▽, type: trans}
   - ⌘X
   - ⌘C
-  - Alt+Sft+Gui+V
+  - Sft+Alt+Gui+V
   - Alt+3
   - '%'
   - '7'
@@ -78,7 +78,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  resetboot:
+  BootloaderReset:
   - BOOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -120,32 +120,32 @@ layers:
 combos:
 - p: [6, 7]
   k: {t: V, h: Sft+V}
-  l: [sentences]
+  l: [LettersModifiersSymbols1]
 - p: [7, 8]
   k: {t: Q, h: Sft+Q}
-  l: [sentences]
+  l: [LettersModifiersSymbols1]
 - p: [34, 33]
-  k: resetboot
-  l: [sentences]
+  k: BootloaderReset
+  l: [LettersModifiersSymbols1]
 - p: [3, 4]
   k: ↹
-  l: [sentences, arrowsnumbers]
+  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
 - p: [14, 15]
   k: ⇪ LOCK
-  l: [sentences, arrowsnumbers]
+  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
 - p: [25, 26]
-  k: '&globe'
-  l: [sentences, arrowsnumbers]
+  k: '&appswitcher'
+  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
 - p: [6, 5]
   k: 'VOL
 
     UP'
-  l: [sentences, arrowsnumbers]
+  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
 - p: [16, 17]
   k: 'VOL
 
     DOWN'
-  l: [sentences, arrowsnumbers]
+  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
 - p: [27, 28]
   k: Gui+Sft+4
-  l: [sentences, arrowsnumbers]
+  l: [LettersModifiersSymbols1, ArrowsNumbersSymbols2]
