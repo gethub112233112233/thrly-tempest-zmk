@@ -65,7 +65,7 @@ layers:
   - {t: ▽, type: trans}
   - ⌘X
   - ⌘C
-  - ⌘V
+  - Alt+Sft+Gui+V
   - Alt+3
   - '%'
   - '7'
@@ -134,7 +134,7 @@ combos:
   k: ⇪ LOCK
   l: [sentences, arrowsnumbers]
 - p: [25, 26]
-  k: F3
+  k: '&globe'
   l: [sentences, arrowsnumbers]
 - p: [6, 5]
   k: 'VOL
