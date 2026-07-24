@@ -44,9 +44,9 @@ layers:
   - Gui+Sft+Z
   - ↑
   - Gui+S
-  - {t: +, h: £}
+  - +
   - '*'
-  - '1'
+  - {t: '1', h: £}
   - '2'
   - '3'
   - '&email'
@@ -128,13 +128,13 @@ combos:
   k: resetboot
   l: [sentences]
 - p: [3, 4]
-  k: '&globe'
-  l: [sentences, arrowsnumbers]
-- p: [14, 15]
   k: ↹
   l: [sentences, arrowsnumbers]
-- p: [25, 26]
+- p: [14, 15]
   k: ⇪ LOCK
+  l: [sentences, arrowsnumbers]
+- p: [25, 26]
+  k: F3
   l: [sentences, arrowsnumbers]
 - p: [6, 5]
   k: 'VOL

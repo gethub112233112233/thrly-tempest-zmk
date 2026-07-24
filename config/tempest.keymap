@@ -43,19 +43,19 @@
         };
 
         left1 {
-            bindings = <&globe>;
+            bindings = <&kp TAB>;
             key-positions = <3 4>;
             layers = <0 1>;
         };
 
         left2 {
-            bindings = <&kp TAB>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <14 15>;
             layers = <0 1>;
         };
 
         left3 {
-            bindings = <&kp CAPSLOCK>;
+            bindings = <&kp F3>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
@@ -86,13 +86,6 @@
             bindings = <&kp LS(NUMBER_2) &kp P &kp R &kp O &kp T &kp O &kp N &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL";
         };
-
-        globe: globe {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GLOBE &kp UP_ARROW>;
-            label = "GLOBE";
-        };
     };
 
     keymap {
@@ -109,10 +102,10 @@
 
         arrowsnumbers {
             bindings = <
-        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &mt LS(NUMBER_3) PLUS  &kp STAR     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
-&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp MINUS              &kp SLASH    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp LA(NUMBER_3)       &kp PERCENT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                                  &trans        &trans     &trans                 &trans       &trans        &trans
+        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp PLUS          &kp STAR     &mt LS(NUMBER_3) NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
+&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp MINUS         &kp SLASH    &kp NUMBER_4               &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp LA(NUMBER_3)  &kp PERCENT  &kp NUMBER_7               &kp NUMBER_8  &kp NUMBER_9  &trans
+                                  &trans        &trans     &trans            &trans       &trans                     &trans
             >;
         };
 
