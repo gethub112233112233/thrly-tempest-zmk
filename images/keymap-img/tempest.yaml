@@ -38,15 +38,15 @@ layers:
   - ⌫
   - ⎵
   - arrowsnumbers
-  - {t: ENTER, h: Ctl+ENTER}
+  - {t: ENTER, h: Gui+ENTER}
   arrowsnumbers:
   - ⌘Z
   - Gui+Sft+Z
   - ↑
   - Gui+S
-  - +
+  - {t: +, h: £}
   - '*'
-  - {t: '1', h: £}
+  - '1'
   - '2'
   - '3'
   - '&email'
@@ -79,22 +79,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   resetboot:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&sys_reset'
-  - '&sys_reset'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BOOT
   - BOOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -104,8 +88,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BOOT
+  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&sys_reset'
   - {t: ▽, type: trans}
   - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -128,13 +128,13 @@ combos:
   k: resetboot
   l: [sentences]
 - p: [3, 4]
-  k: ↹
+  k: '&globe'
   l: [sentences, arrowsnumbers]
 - p: [14, 15]
-  k: ⇪ LOCK
+  k: ↹
   l: [sentences, arrowsnumbers]
 - p: [25, 26]
-  k: {t: ▽, type: trans}
+  k: ⇪ LOCK
   l: [sentences, arrowsnumbers]
 - p: [6, 5]
   k: 'VOL
