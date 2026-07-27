@@ -43,19 +43,19 @@
         };
 
         left1 {
-            bindings = <&kp TAB>;
+            bindings = <&trans>;
             key-positions = <3 4>;
             layers = <0 1>;
         };
 
         left2 {
-            bindings = <&caps_word>;
+            bindings = <&trans>;
             key-positions = <14 15>;
             layers = <0 1>;
         };
 
         left3 {
-            bindings = <&kp LG(LS(NUMBER_4))>;
+            bindings = <&trans>;
             key-positions = <25 26>;
             layers = <0 1>;
         };
@@ -102,19 +102,19 @@
 
         NavigateNumbersSymbols2 {
             bindings = <
-        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &mt LS(NUMBER_3) PLUS  &kp STAR     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
-&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp MINUS              &kp SLASH    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp LA(NUMBER_3)       &kp PERCENT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                                  &trans        &trans     &trans                 &trans       &trans        &trans
+        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp TAB    &caps_word  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
+&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp PLUS   &kp STAR    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp MINUS  &kp SLASH   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                                  &trans        &trans     &trans     &trans      &trans        &trans
             >;
         };
 
         BootloaderReset {
             bindings = <
-        &bootloader     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &bootloader
-&trans  &sys_reset      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &sys_reset   &trans
-        &bt BT_CLR_ALL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans  &trans  &trans  &trans
+        &bootloader     &trans  &trans  &trans  &kp LG(LS(NUMBER_4))  &trans  &trans  &trans  &trans  &bootloader
+&trans  &sys_reset      &trans  &trans  &trans  &trans                &trans  &trans  &trans  &trans  &sys_reset   &trans
+        &bt BT_CLR_ALL  &trans  &trans  &trans  &trans                &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans  &trans                &trans  &trans  &trans
             >;
         };
     };

@@ -44,8 +44,8 @@ layers:
   - Gui+Sft+Z
   - ↑
   - Gui+S
-  - {t: +, h: £}
-  - '*'
+  - ↹
+  - ⇪ WORD
   - '1'
   - '2'
   - '3'
@@ -55,8 +55,8 @@ layers:
   - ←
   - ↓
   - →
-  - '-'
-  - {t: /, s: '?'}
+  - +
+  - '*'
   - '4'
   - '5'
   - '6'
@@ -66,8 +66,8 @@ layers:
   - ⌘X
   - ⌘C
   - ⌘V
-  - Alt+3
-  - '%'
+  - '-'
+  - {t: /, s: '?'}
   - '7'
   - '8'
   - '9'
@@ -83,7 +83,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -128,13 +128,13 @@ combos:
   k: BootloaderReset
   l: [ModifiersLettersSymbols1]
 - p: [3, 4]
-  k: ↹
+  k: {t: ▽, type: trans}
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [14, 15]
-  k: ⇪ WORD
+  k: {t: ▽, type: trans}
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [25, 26]
-  k: Gui+Sft+4
+  k: {t: ▽, type: trans}
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [6, 5]
   k: {t: ▽, type: trans}
