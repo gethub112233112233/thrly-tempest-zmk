@@ -44,8 +44,8 @@ layers:
   - Gui+Sft+Z
   - ↑
   - Gui+S
-  - ↹
-  - ⇪ WORD
+  - +
+  - '*'
   - '1'
   - '2'
   - '3'
@@ -55,8 +55,8 @@ layers:
   - ←
   - ↓
   - →
-  - +
-  - '*'
+  - '-'
+  - {t: /, s: '?'}
   - '4'
   - '5'
   - '6'
@@ -66,8 +66,8 @@ layers:
   - ⌘X
   - ⌘C
   - ⌘V
-  - '-'
-  - {t: /, s: '?'}
+  - '='
+  - '%'
   - '7'
   - '8'
   - '9'
@@ -79,18 +79,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BootloaderReset:
-  - BOOT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+Sft+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BOOT
+  - BOOT
   - {t: ▽, type: trans}
-  - '&sys_reset'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -100,12 +95,17 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&sys_reset'
+  - '&sys_reset'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -128,16 +128,16 @@ combos:
   k: BootloaderReset
   l: [ModifiersLettersSymbols1]
 - p: [3, 4]
-  k: {t: ▽, type: trans}
+  k: ↹
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [14, 15]
-  k: {t: ▽, type: trans}
+  k: ⇪ LOCK
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [25, 26]
   k: {t: ▽, type: trans}
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [6, 5]
-  k: {t: ▽, type: trans}
+  k: Gui+Sft+4
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [16, 17]
   k: {t: ▽, type: trans}

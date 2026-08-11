@@ -43,13 +43,13 @@
         };
 
         left1 {
-            bindings = <&trans>;
+            bindings = <&kp TAB>;
             key-positions = <3 4>;
             layers = <0 1>;
         };
 
         left2 {
-            bindings = <&trans>;
+            bindings = <&kp CAPSLOCK>;
             key-positions = <14 15>;
             layers = <0 1>;
         };
@@ -61,7 +61,7 @@
         };
 
         right1 {
-            bindings = <&trans>;
+            bindings = <&kp LG(LS(NUMBER_4))>;
             key-positions = <6 5>;
             layers = <0 1>;
         };
@@ -102,19 +102,19 @@
 
         NavigateNumbersSymbols2 {
             bindings = <
-        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp TAB    &caps_word  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
-&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp PLUS   &kp STAR    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp MINUS  &kp SLASH   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                                  &trans        &trans     &trans     &trans      &trans        &trans
+        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp PLUS   &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
+&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp MINUS  &kp SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
+        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp EQUAL  &kp PERCENT   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
+                                  &trans        &trans     &trans     &trans        &trans        &trans
             >;
         };
 
         BootloaderReset {
             bindings = <
-        &bootloader     &trans  &trans  &trans  &kp LG(LS(NUMBER_4))  &trans  &trans  &trans  &trans  &bootloader
-&trans  &sys_reset      &trans  &trans  &trans  &trans                &trans  &trans  &trans  &trans  &sys_reset   &trans
-        &bt BT_CLR_ALL  &trans  &trans  &trans  &trans                &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans                &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &bootloader     &bootloader  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &sys_reset      &sys_reset   &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &trans       &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans          &trans       &trans  &trans
             >;
         };
     };
