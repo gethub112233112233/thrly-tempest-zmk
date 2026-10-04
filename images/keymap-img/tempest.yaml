@@ -45,7 +45,7 @@ layers:
   - ↑
   - Gui+S
   - +
-  - '*'
+  - '-'
   - '1'
   - '2'
   - '3'
@@ -55,7 +55,7 @@ layers:
   - ←
   - ↓
   - →
-  - '-'
+  - '*'
   - {t: /, s: '?'}
   - '4'
   - '5'
@@ -134,10 +134,10 @@ combos:
   k: ⇪ LOCK
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [25, 26]
-  k: {t: ▽, type: trans}
+  k: Gui+Sft+4
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [6, 5]
-  k: Gui+Sft+4
+  k: {t: ▽, type: trans}
   l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
 - p: [16, 17]
   k: {t: ▽, type: trans}
