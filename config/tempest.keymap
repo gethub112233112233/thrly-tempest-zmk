@@ -73,7 +73,7 @@
         };
 
         bootreset {
-            bindings = <&mo 0>;
+            bindings = <&mo 3>;
             key-positions = <34 33>;
             layers = <0>;
         };

@@ -34,8 +34,8 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
-  - {t: layer1, type: held}
-  - {t: ⌫, type: held}
+  - layer1
+  - ⌫
   - {t: ⎵, h: layer2}
   - {t: ENTER, h: Gui+ENTER}
   - {t: ▽, type: trans}
@@ -151,8 +151,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -182,5 +182,5 @@ combos:
   k: ''
   l: [base]
 - p: [34, 33]
-  k: base
+  k: bootreset
   l: [base]
