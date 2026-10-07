@@ -34,10 +34,10 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
-  - ⌫
+  - {t: ▽, type: trans}
   - ⎵
-  - {t: ENTER, h: Gui+ENTER}
-  - layer1
+  - ⌫
+  - {t: layer1, h: sticky}
   - {t: ▽, type: trans}
   layer1:
   - {t: ▽, type: trans}
@@ -45,7 +45,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
   - Gui+S
   - ↑
   - Sft+Gui+Z
@@ -56,7 +56,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ↹
   - ←
   - ↓
   - →
@@ -67,10 +67,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⇪ LOCK
   - ⌘V
   - ⌘C
   - ⌘X
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ENTER, h: Gui+ENTER}
+  - {t: layer2, type: held}
+  - {t: ▽, type: trans}
+  layer2:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,9 +163,6 @@ combos:
 - p: [7, 18]
   k: {t: Q, h: Sft+Q}
   l: [base]
-- p: [34, 33]
-  k: bootreset
-  l: [base]
 - p: [4, 15]
   k: {t: ▽, type: trans}
   l: [base, layer1]
@@ -139,3 +175,5 @@ combos:
 - p: [16, 27]
   k: Gui+Sft+4
   l: [base, layer1]
+- p: [34, 33]
+  k: bootreset
