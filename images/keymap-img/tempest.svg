@@ -370,10 +370,11 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(343, 230) rotate(15.0)" class="key trans keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
-</g>
+<g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#layer2">
+<text x="0" y="0" class="key tap layer-activator">layer2</text>
+</a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">⎵</text>
@@ -427,6 +428,10 @@ path.combo {
 <rect rx="6" ry="6" x="636" y="142" width="28" height="26" class="combo"/>
 </g>
 <g class="combo combopos-8">
+<rect rx="6" ry="6" x="809" y="104" width="28" height="26" class="combo"/>
+<text x="823" y="117" class="combo tap">&amp;email</text>
+</g>
+<g class="combo combopos-9">
 <rect rx="6" ry="6" x="358" y="229" width="28" height="26" class="combo"/>
 <a href="#bootreset">
 <text x="372" y="242" class="combo tap layer-activator">bootreset</text>
@@ -589,36 +594,6 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="273" y="30" width="28" height="26" class="combo"/>
-<text x="287" y="43" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="273" y="86" width="28" height="26" class="combo"/>
-<text x="287" y="99" class="combo tap">
-<tspan x="287" dy="-0.6em">⇪</tspan><tspan x="287" dy="1.2em">LOCK</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="273" y="142" width="28" height="26" class="combo"/>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="636" y="30" width="28" height="26" class="combo"/>
-<text x="650" y="43" class="combo tap">ESC</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="636" y="86" width="28" height="26" class="combo"/>
-<text x="650" y="99" class="combo tap">ENTER</text>
-<text x="650" y="110" class="combo hold">Ctl+ENTER</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="636" y="142" width="28" height="26" class="combo"/>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="358" y="229" width="28" height="26" class="combo"/>
-<a href="#bootreset">
-<text x="372" y="242" class="combo tap layer-activator">bootreset</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(30, 699)" class="layer-layer2">
@@ -756,9 +731,8 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(343, 230) rotate(15.0)" class="key trans keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(343, 230) rotate(15.0)" class="key held keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(401, 255) rotate(30.0)" class="key trans keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -778,36 +752,6 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="273" y="30" width="28" height="26" class="combo"/>
-<text x="287" y="43" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="273" y="86" width="28" height="26" class="combo"/>
-<text x="287" y="99" class="combo tap">
-<tspan x="287" dy="-0.6em">⇪</tspan><tspan x="287" dy="1.2em">LOCK</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="273" y="142" width="28" height="26" class="combo"/>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="636" y="30" width="28" height="26" class="combo"/>
-<text x="650" y="43" class="combo tap">ESC</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="636" y="86" width="28" height="26" class="combo"/>
-<text x="650" y="99" class="combo tap">ENTER</text>
-<text x="650" y="110" class="combo hold">Ctl+ENTER</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="636" y="142" width="28" height="26" class="combo"/>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="358" y="229" width="28" height="26" class="combo"/>
-<a href="#bootreset">
-<text x="372" y="242" class="combo tap layer-activator">bootreset</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(30, 1048)" class="layer-bootreset">
@@ -965,36 +909,6 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="273" y="30" width="28" height="26" class="combo"/>
-<text x="287" y="43" class="combo tap">↹</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="273" y="86" width="28" height="26" class="combo"/>
-<text x="287" y="99" class="combo tap">
-<tspan x="287" dy="-0.6em">⇪</tspan><tspan x="287" dy="1.2em">LOCK</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="273" y="142" width="28" height="26" class="combo"/>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="636" y="30" width="28" height="26" class="combo"/>
-<text x="650" y="43" class="combo tap">ESC</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="636" y="86" width="28" height="26" class="combo"/>
-<text x="650" y="99" class="combo tap">ENTER</text>
-<text x="650" y="110" class="combo hold">Ctl+ENTER</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="636" y="142" width="28" height="26" class="combo"/>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="358" y="229" width="28" height="26" class="combo"/>
-<a href="#bootreset">
-<text x="372" y="242" class="combo tap layer-activator">bootreset</text>
-</a></g>
 </g>
 </g>
 </svg>

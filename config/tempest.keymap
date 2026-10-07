@@ -39,36 +39,49 @@
         left1 {
             bindings = <&kp TAB>;
             key-positions = <3 4>;
+            layers = <0>;
         };
 
         left2 {
             bindings = <&kp CAPSLOCK>;
             key-positions = <14 15>;
+            layers = <0>;
         };
 
         left3 {
             bindings = <&none>;
             key-positions = <26 25>;
+            layers = <0>;
         };
 
         right1 {
             bindings = <&kp ESCAPE>;
             key-positions = <5 6>;
+            layers = <0>;
         };
 
         right2 {
             bindings = <&mt LC(ENTER) ENTER>;
             key-positions = <16 17>;
+            layers = <0>;
         };
 
         right3 {
             bindings = <&none>;
             key-positions = <27 28>;
+            layers = <0>;
+        };
+
+        right5 {
+            bindings = <&email>;
+            key-positions = <19 20>;
+            layers = <0>;
         };
 
         bootreset {
             bindings = <&mo 3>;
             key-positions = <34 33>;
+            layers = <0>;
         };
     };
 
@@ -89,7 +102,7 @@
         &mt LS(B) B  &mt LS(Y) Y           &mt LS(O) O            &mt LS(U) U          &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt LS(K) K    &mt LS(D) D  &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &trans  &mt LS(H) H  &mt LS(I) I           &mt LS(E) E            &mt LS(A) A          &mt SEMI COMMA                  &mt LS(M) M    &mt LS(T) T  &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
         &mt LS(X) X  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LS(SEMI) PERIOD  &mt EXCLAMATION QUESTION        &mt LS(W) W    &mt LS(G) G  &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
-                                           &trans                 &trans               &kp SPACE                       &kp BACKSPACE  &mo 1        &trans
+                                           &trans                 &mo 2                &kp SPACE                       &kp BACKSPACE  &mo 1        &trans
             >;
         };
 
