@@ -34,51 +34,12 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
-  - '0'
-  - {t: ⌫, h: layer2}
-  - {t: ⎵, h: layer1}
-  - {t: ENTER, h: Ctl+ENTER}
+  - {t: layer1, type: held}
+  - {t: ⌫, type: held}
+  - {t: ⎵, h: layer2}
+  - {t: ENTER, h: Gui+ENTER}
   - {t: ▽, type: trans}
   layer1:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↹
-  - ESC
-  - Gui+S
-  - ↑
-  - Sft+Gui+Z
-  - ⌘Z
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ⇪ LOCK
-  - Gui+Sft+4
-  - ←
-  - ↓
-  - →
-  - Gui+F
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ⌘V
-  - ⌘C
-  - ⌘X
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  layer2:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,9 +73,48 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  layer2:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ↹
+  - ESC
+  - Gui+S
+  - ↑
+  - Sft+Gui+Z
+  - ⌘Z
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ⇪ LOCK
+  - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - →
+  - Gui+F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ⌘V
+  - ⌘C
+  - ⌘X
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   bootreset:
@@ -145,14 +145,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
+  - Gui+Sft+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -182,5 +182,5 @@ combos:
   k: ''
   l: [base]
 - p: [34, 33]
-  k: bootreset
+  k: base
   l: [base]

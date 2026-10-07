@@ -73,7 +73,7 @@
         };
 
         bootreset {
-            bindings = <&mo 3>;
+            bindings = <&mo 0>;
             key-positions = <34 33>;
             layers = <0>;
         };
@@ -96,20 +96,11 @@
         &mt LS(B) B  &mt LS(Y) Y           &mt LS(O) O            &mt LS(U) U          &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt LS(K) K  &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &trans  &mt LS(H) H  &mt LS(I) I           &mt LS(E) E            &mt LS(A) A          &mt SEMI COMMA                  &mt LS(M) M  &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
         &mt LS(X) X  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LS(SEMI) PERIOD  &mt EXCLAMATION QUESTION        &mt LS(W) W  &mt LS(G) G          &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
-                                           &trans                 &kp NUMBER_0         &lt 2 BACKSPACE                 &lt 1 SPACE  &mt LC(ENTER) ENTER  &trans
+                                           &trans                 &mo 1                &kp BACKSPACE                   &lt 2 SPACE  &mt LG(ENTER) ENTER  &trans
             >;
         };
 
         layer1 {
-            bindings = <
-        &trans  &trans  &trans  &trans  &kp TAB       &kp ESCAPE            &kp LG(S)  &kp UP     &kp LS(LG(Z))  &kp LG(Z)
-&trans  &trans  &trans  &trans  &trans  &kp CAPSLOCK  &kp LG(LS(NUMBER_4))  &kp LEFT   &kp DOWN   &kp RIGHT      &kp LG(F)  &trans
-        &trans  &trans  &trans  &trans  &trans        &trans                &kp LG(V)  &kp LG(C)  &kp LG(X)      &trans
-                        &trans  &trans  &trans        &trans                &trans     &trans
-            >;
-        };
-
-        layer2 {
             bindings = <
         &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &email
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0  &trans
@@ -118,12 +109,21 @@
             >;
         };
 
+        layer2 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &kp TAB       &kp ESCAPE  &kp LG(S)  &kp UP     &kp LS(LG(Z))  &kp LG(Z)
+&trans  &trans  &trans  &trans  &trans  &kp CAPSLOCK  &trans      &kp LEFT   &kp DOWN   &kp RIGHT      &kp LG(F)  &trans
+        &trans  &trans  &trans  &trans  &trans        &trans      &kp LG(V)  &kp LG(C)  &kp LG(X)      &trans
+                        &trans  &trans  &trans        &trans      &trans     &trans
+            >;
+        };
+
         bootreset {
             bindings = <
-        &trans  &trans  &trans  &trans  &bootloader     &bootloader  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sys_reset      &sys_reset   &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &trans       &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans          &trans       &trans  &trans
+        &trans  &trans  &trans  &trans  &bootloader     &bootloader           &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &sys_reset      &sys_reset            &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &bt BT_CLR_ALL  &kp LG(LS(NUMBER_4))  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans          &trans                &trans  &trans
             >;
         };
     };
