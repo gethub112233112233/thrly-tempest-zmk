@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: tempest}
 layers:
-  ModifiersLettersSymbols1:
+  base:
   - {t: B, h: Sft+B}
   - {t: Y, h: Sft+Y}
   - {t: O, h: Sft+O}
@@ -33,52 +33,52 @@ layers:
   - {t: F, h: Sft+F}
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
-  - ESC
-  - NavigateNumbersSymbols2
+  - {t: ▽, type: trans}
   - ⌫
   - ⎵
-  - NavigateNumbersSymbols2
   - {t: ENTER, h: Gui+ENTER}
-  NavigateNumbersSymbols2:
-  - ⌘Z
-  - Gui+Sft+Z
-  - ↑
-  - Gui+S
-  - +
-  - '-'
-  - '1'
-  - '2'
-  - '3'
-  - '&email'
+  - layer1
   - {t: ▽, type: trans}
-  - Gui+F
+  layer1:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+S
+  - ↑
+  - Sft+Gui+Z
+  - ⌘Z
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ←
   - ↓
   - →
-  - '*'
-  - {t: /, s: '?'}
-  - '4'
-  - '5'
-  - '6'
-  - '0'
+  - Gui+F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⌘X
-  - ⌘C
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ⌘V
-  - '='
-  - '%'
-  - '7'
-  - '8'
-  - '9'
+  - ⌘C
+  - ⌘X
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  BootloaderReset:
+  bootreset:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,30 +118,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [6, 7]
+- p: [6, 17]
   k: {t: V, h: Sft+V}
-  l: [ModifiersLettersSymbols1]
-- p: [7, 8]
+  l: [base]
+- p: [7, 18]
   k: {t: Q, h: Sft+Q}
-  l: [ModifiersLettersSymbols1]
+  l: [base]
 - p: [34, 33]
-  k: BootloaderReset
-  l: [ModifiersLettersSymbols1]
-- p: [3, 4]
-  k: ↹
-  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
-- p: [14, 15]
-  k: ⇪ LOCK
-  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
-- p: [25, 26]
+  k: bootreset
+  l: [base]
+- p: [4, 15]
+  k: {t: ▽, type: trans}
+  l: [base, layer1]
+- p: [15, 4]
+  k: {t: ▽, type: trans}
+  l: [base, layer1]
+- p: [5, 16]
+  k: '&email'
+  l: [base, layer1]
+- p: [16, 27]
   k: Gui+Sft+4
-  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
-- p: [6, 5]
-  k: {t: ▽, type: trans}
-  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
-- p: [16, 17]
-  k: {t: ▽, type: trans}
-  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
-- p: [27, 28]
-  k: {t: ▽, type: trans}
-  l: [ModifiersLettersSymbols1, NavigateNumbersSymbols2]
+  l: [base, layer1]

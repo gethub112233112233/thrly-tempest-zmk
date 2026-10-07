@@ -26,55 +26,43 @@
 
         Vv {
             bindings = <&mt LS(V) V>;
-            key-positions = <6 7>;
+            key-positions = <6 17>;
             layers = <0>;
         };
 
         Qq {
             bindings = <&mt LS(Q) Q>;
-            key-positions = <7 8>;
+            key-positions = <7 18>;
             layers = <0>;
         };
 
-        BootloaderReset {
+        bootreset {
             bindings = <&mo 2>;
             key-positions = <34 33>;
             layers = <0>;
         };
 
         left1 {
-            bindings = <&kp TAB>;
-            key-positions = <3 4>;
+            bindings = <&trans>;
+            key-positions = <4 15>;
             layers = <0 1>;
         };
 
         left2 {
-            bindings = <&kp CAPSLOCK>;
-            key-positions = <14 15>;
-            layers = <0 1>;
-        };
-
-        left3 {
-            bindings = <&kp LG(LS(NUMBER_4))>;
-            key-positions = <25 26>;
+            bindings = <&trans>;
+            key-positions = <15 4>;
             layers = <0 1>;
         };
 
         right1 {
-            bindings = <&trans>;
-            key-positions = <6 5>;
+            bindings = <&email>;
+            key-positions = <5 16>;
             layers = <0 1>;
         };
 
         right2 {
-            bindings = <&trans>;
-            key-positions = <16 17>;
-            layers = <0 1>;
-        };
-
-        right3 {
-            bindings = <&trans>;
-            key-positions = <27 28>;
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            key-positions = <16 27>;
             layers = <0 1>;
         };
     };
@@ -91,25 +79,25 @@
     keymap {
         compatible = "zmk,keymap";
 
-        ModifiersLettersSymbols1 {
+        base {
             bindings = <
-        &mt LS(B) B  &mt LS(Y) Y           &mt LS(O) O            &mt LS(U) U          &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt LS(K) K  &mt LS(D) D  &mt LS(C) C          &mt LS(L) L  &mt LS(P) P
-&trans  &mt LS(H) H  &mt LS(I) I           &mt LS(E) E            &mt LS(A) A          &mt SEMI COMMA                  &mt LS(M) M  &mt LS(T) T  &mt LS(S) S          &mt LS(R) R  &mt LS(N) N  &trans
-        &mt LS(X) X  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LS(SEMI) PERIOD  &mt EXCLAMATION QUESTION        &mt LS(W) W  &mt LS(G) G  &mt LS(F) F          &mt LS(J) J  &mt LS(Z) Z
-                                           &kp ESCAPE             &mo 1                &kp BACKSPACE                   &kp SPACE    &mo 1        &mt LG(ENTER) ENTER
+        &mt LS(B) B  &mt LS(Y) Y           &mt LS(O) O            &mt LS(U) U          &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt LS(K) K          &mt LS(D) D  &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
+&trans  &mt LS(H) H  &mt LS(I) I           &mt LS(E) E            &mt LS(A) A          &mt SEMI COMMA                  &mt LS(M) M          &mt LS(T) T  &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
+        &mt LS(X) X  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LS(SEMI) PERIOD  &mt EXCLAMATION QUESTION        &mt LS(W) W          &mt LS(G) G  &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
+                                           &trans                 &kp BACKSPACE        &kp SPACE                       &mt LG(ENTER) ENTER  &mo 1        &trans
             >;
         };
 
-        NavigateNumbersSymbols2 {
+        layer1 {
             bindings = <
-        &kp LG(Z)  &kp LG(LS(Z))  &kp UP_ARROW  &kp LG(S)  &kp PLUS      &kp MINUS    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &email
-&trans  &kp LG(F)  &kp LEFT       &kp DOWN      &kp RIGHT  &kp ASTERISK  &kp SLASH    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &trans
-        &trans     &kp LG(X)      &kp LG(C)     &kp LG(V)  &kp EQUAL     &kp PERCENT  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
-                                  &trans        &trans     &trans        &trans       &trans        &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(S)  &kp UP     &kp LS(LG(Z))  &kp LG(Z)
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN   &kp RIGHT      &kp LG(F)  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(V)  &kp LG(C)  &kp LG(X)      &trans
+                        &trans  &trans  &trans  &trans  &trans     &trans
             >;
         };
 
-        BootloaderReset {
+        bootreset {
             bindings = <
         &trans  &trans  &trans  &trans  &bootloader     &bootloader  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &sys_reset      &sys_reset   &trans  &trans  &trans  &trans  &trans
