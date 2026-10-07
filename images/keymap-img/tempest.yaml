@@ -34,10 +34,10 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
-  - layer2
-  - ⌫
-  - ⎵
-  - layer1
+  - '0'
+  - {t: ⌫, h: layer2}
+  - {t: ⎵, h: layer1}
+  - {t: ENTER, h: Ctl+ENTER}
   - {t: ▽, type: trans}
   layer1:
   - {t: ▽, type: trans}
@@ -56,7 +56,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⇪ LOCK
-  - {t: ENTER, h: Ctl+ENTER}
+  - Gui+Sft+4
   - ←
   - ↓
   - →
@@ -75,8 +75,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   layer2:
   - {t: ▽, type: trans}
@@ -112,8 +112,8 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -157,16 +157,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [6, 17]
+- p: [6, 7]
   k: {t: V, h: Sft+V}
   l: [base]
-- p: [7, 18]
+- p: [7, 8]
   k: {t: Q, h: Sft+Q}
   l: [base]
-- p: [3, 4]
+- p: [4, 3]
   k: ''
   l: [base]
-- p: [14, 15]
+- p: [15, 14]
   k: ''
   l: [base]
 - p: [26, 25]
