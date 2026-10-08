@@ -34,7 +34,7 @@ layers:
   - {t: J, h: Sft+J}
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
-  - {t: layer1, h: toggle}
+  - layer1
   - ⌫
   - {t: ⎵, h: layer2}
   - {t: ENTER, h: Ctl+ENTER}
@@ -44,7 +44,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&email'
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -73,7 +73,7 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

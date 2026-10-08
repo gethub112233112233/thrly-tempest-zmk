@@ -96,13 +96,13 @@
         &mt LS(B) B  &mt LS(Y) Y           &mt LS(O) O            &mt LS(U) U          &mt DOUBLE_QUOTES SINGLE_QUOTE  &mt LS(K) K  &mt LS(D) D          &mt LS(C) C  &mt LS(L) L  &mt LS(P) P
 &trans  &mt LS(H) H  &mt LS(I) I           &mt LS(E) E            &mt LS(A) A          &mt SEMI COMMA                  &mt LS(M) M  &mt LS(T) T          &mt LS(S) S  &mt LS(R) R  &mt LS(N) N  &trans
         &mt LS(X) X  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt LS(SEMI) PERIOD  &mt EXCLAMATION QUESTION        &mt LS(W) W  &mt LS(G) G          &mt LS(F) F  &mt LS(J) J  &mt LS(Z) Z
-                                           &trans                 &tog 1               &kp BACKSPACE                   &lt 2 SPACE  &mt LC(ENTER) ENTER  &trans
+                                           &trans                 &mo 1                &kp BACKSPACE                   &lt 2 SPACE  &mt LC(ENTER) ENTER  &trans
             >;
         };
 
         layer1 {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &trans
+        &trans  &trans  &trans  &trans  &email  &trans  &kp N1  &kp N2  &kp N3  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0  &trans
         &trans  &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
                         &trans  &trans  &trans  &trans  &trans  &trans
