@@ -36,36 +36,36 @@ layers:
   - {t: ▽, type: trans}
   - {t: ESC, h: layer1}
   - ⌫
-  - {t: ⎵, h: layer2}
-  - {t: ENTER, h: Ctl+ENTER}
+  - ⎵
+  - {t: ENTER, h: Gui+ENTER}
   - {t: ▽, type: trans}
   layer1:
+  - ⌘Z
+  - Sft+Gui+Z
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&email'
-  - {t: ▽, type: trans}
+  - Gui+S
+  - {t: layer2, h: toggle}
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
+  - '&email'
+  - {t: ▽, type: trans}
+  - Gui+F
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⇪ LOCK
+  - ↹
   - '4'
   - '5'
   - '6'
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ⌘X
+  - ⌘C
+  - ⌘V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   resetboot:
@@ -164,7 +164,7 @@ combos:
   k: {t: Q, h: Sft+Q}
   l: [base]
 - p: [4, 3]
-  k: ''
+  k: '-'
   l: [base]
 - p: [15, 14]
   k: ''
@@ -173,7 +173,7 @@ combos:
   k: ''
   l: [base]
 - p: [5, 6]
-  k: ''
+  k: +
   l: [base]
 - p: [16, 17]
   k: ''
