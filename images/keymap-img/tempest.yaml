@@ -35,8 +35,8 @@ layers:
   - {t: Z, h: Sft+Z}
   - {t: ▽, type: trans}
   - {t: ESC, h: layer1}
-  - ⎵
   - ⌫
+  - ⎵
   - {t: ENTER, h: Gui+ENTER}
   - {t: ▽, type: trans}
   layer1:
