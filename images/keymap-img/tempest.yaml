@@ -42,7 +42,7 @@ layers:
   layer1:
   - ⌘Z
   - Sft+Gui+Z
-  - {t: ▽, type: trans}
+  - ↑
   - Gui+S
   - {t: layer2, h: toggle}
   - {t: ▽, type: trans}
@@ -52,9 +52,9 @@ layers:
   - '&email'
   - {t: ▽, type: trans}
   - Gui+F
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - →
   - ⇪ LOCK
   - ↹
   - '4'
@@ -79,21 +79,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   layer2:
-  - ⌘Z
-  - Sft+Gui+Z
-  - ↑
-  - Gui+S
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+F
-  - ←
-  - ↓
-  - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -102,9 +87,24 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ⌘X
-  - ⌘C
-  - ⌘V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

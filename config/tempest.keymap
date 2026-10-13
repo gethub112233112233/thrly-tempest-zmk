@@ -102,8 +102,8 @@
 
         layer1 {
             bindings = <
-        &kp LG(Z)  &kp LS(LG(Z))  &trans     &kp LG(S)  &tog 2        &trans   &kp N1  &kp N2  &kp N3  &email
-&trans  &kp LG(F)  &trans         &trans     &trans     &kp CAPSLOCK  &kp TAB  &kp N4  &kp N5  &kp N6  &kp N0  &trans
+        &kp LG(Z)  &kp LS(LG(Z))  &kp UP     &kp LG(S)  &tog 2        &trans   &kp N1  &kp N2  &kp N3  &email
+&trans  &kp LG(F)  &kp LEFT       &kp DOWN   &kp RIGHT  &kp CAPSLOCK  &kp TAB  &kp N4  &kp N5  &kp N6  &kp N0  &trans
         &trans     &kp LG(X)      &kp LG(C)  &kp LG(V)  &trans        &trans   &kp N7  &kp N8  &kp N9  &trans
                                   &trans     &trans     &trans        &trans   &trans  &trans
             >;
@@ -111,10 +111,10 @@
 
         layer2 {
             bindings = <
-        &kp LG(Z)  &kp LS(LG(Z))  &kp UP     &kp LG(S)  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(F)  &kp LEFT       &kp DOWN   &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans     &kp LG(X)      &kp LG(C)  &kp LG(V)  &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans     &trans     &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
